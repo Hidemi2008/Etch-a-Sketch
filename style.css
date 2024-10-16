@@ -5,7 +5,7 @@ body{
     flex-direction: column;
 }
 
-#header{
+.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,7 +14,7 @@ body{
     margin-bottom: 20px;
 }
 
-#footer{
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +23,7 @@ body{
     margin-top: 20px;
 }
 
-#border{
+.board{
     display: grid;
     width: 500px;
     height: 500px;
